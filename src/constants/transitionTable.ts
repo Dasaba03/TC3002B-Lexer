@@ -1,4 +1,4 @@
-import { TOKENS } from "./constants/tokens";
+import { TOKENS } from "./tokens";
 
 /**
  * Transition table for the lexer. This is a 2D table that maps the current state and the input token to the next state.
