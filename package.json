@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "start": "node dist/index.js",
-    "dev": "tsc --watch"
+    "dev": "tsc && node dist/index.js"
   },
   "devDependencies": {
     "@types/node": "^25.6.0",

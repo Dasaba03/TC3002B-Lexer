@@ -1,10 +1,5 @@
-import { TOKENS } from "./constants/tokens";
-import * as fs from "fs";
-import parseSourceCode from "./parse";
-
+import readTritonFile from "./readFile";
 
 // Read file
-const sourceCode = fs.readFileSync("source.py", "utf-8");
-
-// Tokenize file
-const tokens = parseSourceCode(sourceCode);
+const sourceCode = readTritonFile("triton"); // triton.py
+console.log(sourceCode);
